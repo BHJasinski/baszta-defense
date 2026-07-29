@@ -898,12 +898,36 @@
       }
 
       .hero {
-        padding-top: 110px;
+        padding-top: 104px;
         min-height: 92svh;
       }
 
-      h1 {
-        font-size: clamp(3.15rem, 18vw, 5.6rem);
+      .hero-content {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .hero-lead {
+        font-size: 1rem;
+        line-height: 1.55;
+      }
+
+      .hero h1 {
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(2.75rem, 12.2vw, 4.7rem);
+        line-height: .92;
+        letter-spacing: 0;
+        overflow-wrap: normal;
+        word-break: normal;
+      }
+
+      .hero h1 span {
+        display: block;
+        font-size: .88em;
+        line-height: 1.02;
+        margin-top: .08em;
+        white-space: normal;
       }
 
       .hero-media {
